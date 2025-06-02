@@ -79,9 +79,9 @@ No external libraries or installations are required. All used libraries are incl
 ## 🗃 Project Structure
 
 attendance-tkinter/
-├── attendance_system.py     # Main application file
-├── README.md                # This documentation
-└── *.csv                    # Attendance logs (auto-generated)
+- ├── attendance_system.py     # Main application file
+- ├── README.md                # This documentation
+- └── *.csv                    # Attendance logs (auto-generated)
 
 ---
 
@@ -89,20 +89,20 @@ attendance-tkinter/
 
 A file named Attendance_2025-06-02_14-23.csv may look like this:
 
-Student Name,Status,Date
-John,Present,2025-06-02
-Mary,Absent,2025-06-02
-Sam,Present,2025-06-02
-Alice,Present,2025-06-02
-Bob,Absent,2025-06-02
+- Student Name,Status,Date
+- John,Present,2025-06-02
+- Mary,Absent,2025-06-02
+- Sam,Present,2025-06-02
+- Alice,Present,2025-06-02
+- Bob,Absent,2025-06-02
 
 --- 
 
 ## 💡 Future Improvements
 
--Store attendance permanently (SQLite or Pandas DataFrame)
--Add calendar/date selection
--View attendance history
--Face recognition integration (OpenCV)
+- Store attendance permanently (SQLite or Pandas DataFrame)
+- Add calendar/date selection
+- View attendance history
+- Face recognition integration (OpenCV)
 
 
